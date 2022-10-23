@@ -9,7 +9,7 @@ router.get('/list', function(req, res) {
         res.json({
             status: 200,
             data,
-            message: "User lists retrieved successfully"
+            message: "User lists retrieved successfully!"
         })
     })
 });
